@@ -10,13 +10,22 @@ A simple todo app comparing **3 SvelteKit data patterns**.
 
 ## Comparison
 
-| | SSR | CSR | Remote |
-|---|---|---|---|
-| **Code** | ~35 lines | ~120 lines | ~85 lines |
+| Feature | SSR | CSR | Remote |
+|---------|-----|-----|--------|
+| **Lines of Code** | ~35 | ~120 | ~85 |
+| **Boilerplate** | Minimal | High | Low |
 | **Works without JS** | ✅ | ❌ | ❌ |
-| **Type Safe** | ⚠️ | ❌ | ✅ |
+| **Type Safety** | ⚠️ | ❌ | ✅ |
+| **Loading States** | ⚠️ | ⚠️ | ✅ |
+| **Error Handling** | ⚠️ | ⚠️ | ✅ |
 | **Reactivity** | ❌ | ✅ | ✅ |
-| **Boilerplate** | Low | High | Low |
+| **SEO Friendly** | ✅ | ⚠️ | ✅ |
+| **Real-time Updates** | ❌ | ✅ | ✅ |
+| **API Reusability** | ❌ | ✅ | ⚠️ |
+| **Learning Curve** | Easy | Medium | Medium |
+| **Best For** | Simple forms | Complex SPAs | Modern apps |
+| **Progressive Enhancement** | ✅ | ❌ | ❌ |
+| **State Management** | Server-driven | Client-driven | Hybrid |
 
 ## Setup
 
