@@ -1,4 +1,4 @@
-# sv-crud
+# SvelteKit data patterns
 
 A simple todo app comparing **3 SvelteKit data patterns**.
 
